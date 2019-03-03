@@ -1,3 +1,5 @@
+.conatiner {}
+
 .top-area {
     width: 100%;
     float: left;
@@ -10,7 +12,19 @@
     margin-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
 
+}
+
+.icon {
+    margin: 0 auto;
+    color: rgb(100, 100, 100);
+    width: 96%;
+    margin: 2%;
+    float: left;
+    clear: both;
+    position: relative;
+    text-align: center;
 }
 
 .topnav {
@@ -44,6 +58,7 @@
     width: 100%;
     float: left;
     border: 1px solid;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .instruct {
@@ -62,8 +77,8 @@
 }
 
 .searchbar {
-    margin: 20px 20px;
-    width: 90%;
+    margin: 2% 2%;
+    width: 96%;
     clear: both;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -71,14 +86,13 @@
     padding-left: 10px;
 }
 
-
-
 .sub-header {
     float: left;
-    font-style: oblique;
+    font-weight: 600;
+    color: #2c2c2c;
     font-size: 18px;
     margin: 3%;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .description {
@@ -91,7 +105,6 @@
 .mini-description {
     width: 30%;
     margin: 0 auto;
-    border: 1px solid;
     float: left;
 }
 
@@ -153,6 +166,7 @@
     float: left;
     margin: 0 auto;
     margin: 0px 3% 3% 3%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .item-id {
@@ -166,6 +180,7 @@
     text-align: center;
     margin: 0px 3%;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .product-name {
@@ -178,4 +193,65 @@
     margin: 0px 3%;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width:800px) {
+    .mini-description {
+        width: 96%;
+        float: left;
+        clear: both;
+    }
+
+    .mini-description.one {
+        margin: 2% 2% 0 2%;
+    }
+
+    .mini-description.two {
+        margin: 2%;
+
+    }
+
+    .mini-description.three {
+        margin: 0% 2% 2% 2%;
+    }
+
+    .icon {
+        margin: 0 auto;
+        color: rgb(100, 100, 100);
+        width: 96%;
+        margin: 2%;
+        float: left;
+        clear: both;
+        position: relative;
+        text-align: center;
+    }
+
+    .search-area {
+        width: 94%;
+    }
+
+    .searchbar {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .collect-desc {
+        width: 96%;
+        margin: 2% 2%;
+        float: left;
+        clear: left;
+    }
+
+    .collect-desc.one {
+        margin: 2% 2% 1% 2%;
+    }
+
+    .collect-desc.two,
+    .collect-desc.three {
+        margin: 1% 2%;
+    }
+
+    .collect-desc.four {
+        margin: 1% 2% 2% 2%;
+    }
 }
